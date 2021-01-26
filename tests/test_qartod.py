@@ -669,7 +669,7 @@ class QartodClimatologyDepthTest(unittest.TestCase):
             vspan=(70, 80),
             zspan=(10, 100)
         )
-       
+
     def _run_test(self, test_inputs, expected_result):
         times, values, depths = zip(*test_inputs)
         inputs = [
@@ -748,7 +748,7 @@ class QartodClimatologyTest(unittest.TestCase):
             vspan=(70, 80),
             zspan=(10, 100)
         )
-       
+
     def _run_test(self, test_inputs, expected_result):
         times, values, depths = zip(*test_inputs)
         inputs = [
